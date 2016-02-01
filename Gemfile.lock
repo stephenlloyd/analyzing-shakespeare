@@ -6,7 +6,10 @@ GEM
       json (~> 1.8)
       multi_xml (>= 0.5.2)
     json (1.8.3)
+    mini_portile2 (2.0.0)
     multi_xml (0.5.5)
+    nokogiri (1.6.7.2)
+      mini_portile2 (~> 2.0.0.rc2)
     rspec (3.2.0)
       rspec-core (~> 3.2.0)
       rspec-expectations (~> 3.2.0)
@@ -26,6 +29,7 @@ PLATFORMS
 
 DEPENDENCIES
   httparty
+  nokogiri
   rspec
 
 BUNDLED WITH
